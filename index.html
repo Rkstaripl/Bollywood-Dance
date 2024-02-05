@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>All About Bollywood Dancing - By Rian</title>
+<link href="../Desktop/Project/style.css" rel="stylesheet" type="text/css">
+<meta name ="viewport" content = "width=device-width, initial-scale =1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+<section id="banner"><img src="pngtree-bollywood-indian-cinema-sparkling-text-on-red-curtain-background-image_1917168.jpg" width="500" height="" alt="" class="logo"/>
+	<div class = "banner-text">
+		<h1>Bollywood Dance</h1>
+		<p>All you need to know</p>
+	</div>
+	<div class = "banner-btn">
+		<a href="#"><span></span>Find out</a>
+		<a href="#"><span></span>Read More</a>
+	</div>
+	</section>
+	<div id="sideNav">
+	<nav>
+		<ul>
+			<li><a href = "#">Home</a></li>
+			<li><a href = "#">Bollywood Dancing</a></li>
+			<li><a href = "#">People Involved</a></li>
+			<li><a href = "#">Videos</a></li>
+			<li><a href = "#">About me</a></li>
+		</ul>
+		</nav>
+	</div>
+	<div id = "menubtn">
+	<img src="Hamburger_icon.svg.png" id="menu" alt="">
+	</div>
+	
+	
+<section id ="feature">
+<div class ="title-text">
+	<p>Bollywood Dancing</p>
+	<h1>What is it?</h1>
+
+</div>
+</section>
+
+	
+	
+	
+	
+	
+	
+<script>
+	var menubtn = document.getElementById("menubtn")
+	var sideNav = document.getElementById("sideNav")
+	var menu = document.getElementById("menu")
+	
+	sideNav.style.right = "-250px";
+	
+	menubtn.onclick = function(){
+		if(sideNav.style.right == "-250px"){
+			sideNav.style.right = "0px";
+			menu.src = "877932.png";
+			alert("open");
+		}
+		else{
+			sideNav.style.right = "-250px";
+			menu.src = "Hamburger_icon.svg.png";
+			alert("close");
+		}
+	}
+	</script>
+</body>
+</html>
